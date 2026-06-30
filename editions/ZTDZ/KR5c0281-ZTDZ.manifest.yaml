@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0281/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0281/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太清經天師口訣
+  date: '2015-08-29 00:55:26.491112'
+  source:
+    repository: kanripo
+    path: KR5c0281
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0281_000-ZTDZ.yaml, hash: 'sha256:fc4277261ea2090726c0473394cd16692444d8cf53ea95351a92ea138969f0fd'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0281_000-ZTDZ.markers.yaml, hash: 'sha256:eaf54abe7154bf063db4196234af30e6baae80ce958633e3a95cf6647ff35343'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0281_SJB_000-180787b
+    span:
+    - body
+    - 0
+    - 3330
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:e15d988026f0500a0b5d87894e0455a3421c1c95f444874d1f7627410295564e
